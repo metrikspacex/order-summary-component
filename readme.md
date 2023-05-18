@@ -41,7 +41,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Angular](https://reactjs.org/) - JS library
+- [Angular](https://angular.io/) - JS library
 
 ## Author
 

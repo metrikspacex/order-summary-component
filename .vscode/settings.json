@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.gitkeep": true,
+    ".angular": true,
+    ".editorconfig": true,
+    ".eslintignore": true,
+    ".eslintrc": true,
+    ".gitignore": true,
+    ".hintrc": true,
+    ".prettierignore": true,
+    ".prettierrc": true,
+    ".screenshots": true,
+    "angular.json": false,
+    "dist": true,
+    "node_modules": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "readme.md": true,
+    "src/index.html": true,
+    "tsconfig.app.json": true,
+    "tsconfig.json": true,
+    "tsconfig.spec.json": true
+  }
+}

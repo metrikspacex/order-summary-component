@@ -11,7 +11,7 @@
     ".prettierignore": true,
     ".prettierrc": true,
     ".screenshots": true,
-    "angular.json": false,
+    "angular.json": true,
     "dist": true,
     "node_modules": true,
     "package-lock.json": true,

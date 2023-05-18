@@ -9,7 +9,7 @@ import { ChangeDetectionStrategy, Component } from "@angular/core";
   styleUrls: ["./order-summary.component.scss"],
   template: `
     <div class="order-summary">
-      <img alt="" src="../../assets/images/illustration-hero.svg" />
+      <img alt="" src="/assets/images/illustration-hero.svg" />
       <div class="body">
         <h1>Order Summary</h1>
         <p>
@@ -17,7 +17,7 @@ import { ChangeDetectionStrategy, Component } from "@angular/core";
           any device anywhere you like!
         </p>
         <div class="plan">
-          <img alt="" src="../../assets/images/icon-music.svg" />
+          <img alt="" src="/assets/images/icon-music.svg" />
           <div class="stack">
             <h1>Annual Plan</h1>
             <h2>$59.99/year</h2>

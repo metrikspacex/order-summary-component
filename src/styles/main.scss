@@ -28,6 +28,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: var(--clr-12);
+  background-color: red;
   color-scheme: light;
   color: black;
   font-family: var(--font);
@@ -42,14 +43,12 @@
 body {
   background-image: url("../assets/images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
-  background-position: left -131.81px top 0;
-  background-size: 170% 25%;
+  background-position: left 0 top 0;
+  background-size: 100% 25%;
 
-  @media (width >= 1440px) {
-    background-image: url("../assets/images/pattern-background-mobile.svg");
-    background-repeat: no-repeat;
-    background-position: left 0 top 0;
-    background-size: 1440px 50%;
+  @media (width >= 768px) {
+    background-image: url("../assets/images/pattern-background-desktop.svg");
+    background-size: 100% 50%;
   }
 
   display: grid;

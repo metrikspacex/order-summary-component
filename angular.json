@@ -8,7 +8,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angular-fem-template": {
+    "order-summary-component": {
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -45,7 +45,7 @@
             "index": "src/index.html",
             "inlineStyleLanguage": "scss",
             "main": "src/main.ts",
-            "outputPath": "dist/angular-fem-template",
+            "outputPath": "dist/order-summary-component",
             "polyfills": [
               "zone.js"
             ],
@@ -56,10 +56,13 @@
             "tsConfig": "tsconfig.app.json"
           }
         },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-fem-template:build"
+            "browserTarget": "order-summary-component:build"
           }
         },
         "lint": {
@@ -75,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "angular-fem-template:build:development"
+              "browserTarget": "order-summary-component:build:development"
             },
             "production": {
-              "browserTarget": "angular-fem-template:build:production"
+              "browserTarget": "order-summary-component:build:production"
             }
           },
           "defaultConfiguration": "development"

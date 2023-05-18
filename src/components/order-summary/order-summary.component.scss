@@ -78,7 +78,9 @@ div.body {
       margin-bottom: 1.5rem;
       width: 35.4rem;
     }
+    &:focus-visible,
     &:hover {
+      background: #766cf1;
       cursor: pointer;
     }
   }
@@ -89,6 +91,11 @@ div.body {
     font-style: normal;
     font-weight: 900;
     line-height: 2rem;
+    &:focus-visible,
+    &:hover {
+      cursor: pointer;
+      color: #1f2e55;
+    }
     @media (width >= 768px) {
       margin-bottom: 0.3rem;
     }
@@ -122,6 +129,11 @@ div.plan {
     font-weight: 700;
     line-height: 1.7rem;
     text-decoration-line: underline;
+    &:focus-visible,
+    &:hover {
+      cursor: pointer;
+      color: #766cf1;
+    }
     @media (width >= 768px) {
       font-size: 1.4rem;
       line-height: 1.9rem;

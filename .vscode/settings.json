@@ -17,7 +17,7 @@
     "package-lock.json": true,
     "package.json": true,
     "readme.md": true,
-    "src/index.html": false,
+    "src/index.html": true,
     "tsconfig.app.json": true,
     "tsconfig.json": true,
     "tsconfig.spec.json": true
